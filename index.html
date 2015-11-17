@@ -15,7 +15,7 @@
 	<div class="wrapper">
     	<div class="row">
         	<div class="col-1-2">
-            	<a href="#">Helping Hands</a>
+            	<a href="#" class="logo">Helping Hands</a>
             </div>
             <div class="col-1-2">
             	<nav>
@@ -41,8 +41,6 @@
         </div>
     </div>
 </header>
-
-<body>
 	
     <div id="hero">
         <div class="wrapper">
@@ -63,10 +61,11 @@
     
 	<section class="wrapper">
     	<div class="row">
-        	<div class="col-1-2">
+        	<div class="col-1-2"  id="about">
             	<header>
-                	<h2 id="about">About Us</h2>
+                	<h2>About Us</h2>
                 </header>
+                <div id="about-underline"></div>
                 <section>
                 	<header>
                     	<h3>We Operate with Integrity</h3>
@@ -97,6 +96,7 @@
                     <header>
                         <h2>Services</h2>
                     </header>
+                    <div id="service-underline"></div>
                     <div class="row">
                         <section class="col-1-4">
                             <header>
@@ -162,10 +162,11 @@
     
     <section class="wrapper">
     	<div class="row">
-            <div class="col-1-2">
+            <div class="col-1-2"  id="choose">
             	<header>
-                	<h2 id="choose">Why Choose us</h2>
+                	<h2>Why Choose us</h2>
                 </header>
+                <div id="choose-underline"></div>
                 <div>
                 	<section class="col-1-2">
                     	<header>
@@ -216,26 +217,12 @@
     
     <div class="wrapper">
         <div class="row">
-            <section>
-                    <div class="col-1-2" id="connect">
-                        <header>
-                            <h2>Connect With Us</h2>
-                        </header>
-                        <form>
-                            <input type="text">
-                            <input type="email">
-                            <textarea>
-                            </textarea>
-                            <input type="submit">
-                        </form>
-                    </div>
-            </section>
-            
-            <section>
+        	<section>
                     <div class="col-1-2"  id="events">
                         <header>
-                            <h2>Upcomming Events</h2>
+                            <h2>Upcoming Events</h2>
                         </header>
+                        <div id="events-underline"></div>
                         <dl>
                             <dt>Lincoln, Nebraska  11/30/15
                             </dt>
@@ -252,51 +239,62 @@
                         </dl>
                     </div>
             </section>
+            <section>
+                    <div class="col-1-2" id="connect">
+                        <header>
+                            <h2>Connect With Us</h2>
+                        </header>
+                        <div id="connect-underline"></div>
+                        <form>
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Email">
+                            <textarea placeholder="Additional Information..." rows="10"></textarea>
+                            <input type="submit">
+                        </form>
+                    </div>
+            </section>
         </div>
     </div>
-</body>
 
 <footer>
 	<div class="wrapper">
     	<div class="row">
-        	<div class="col-1">
-                <div class="col-1-4">
-                    <a href="#home">Helping Hands</a>
-                </div>
-                <div class="col-1-4">
+            <div class="col-1-4">
+                <a href="#home" class="logo">Helping Hands</a>
+            </div>
+            <div class="col-1-4">
+                <ul>
+                    <li>
+                      	<a href="https://www.facebook.com"></a>
+                    </li>
+                    <li>
+                       	<a href="https://www.twitter.com"></a>
+                    </li>
+                    <li>
+                     	<a href="https://www.linkedin.com"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-1-2">
+                <nav>
                     <ul>
                         <li>
-                        	<a href="https://www.facebook.com"></a>
+                            <a href="#hero">Home</a>
                         </li>
                         <li>
-                        	<a href="https://www.twitter.com"></a>
+                            <a href="#about">About Us</a>
                         </li>
                         <li>
-                        	<a href="https://www.linkedin.com"></a>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#choose">Why Choose Us</a>
+                        </li>
+                        <li>
+                            <a href="#connect">Connect With Us</a>
                         </li>
                     </ul>
-                </div>
-                <div class="col-1-2">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#hero">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="#choose">Why Choose Us</a>
-                            </li>
-                            <li>
-                                <a href="#connect">Connect With Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                </nav>
             </div>
         </div>
     </div>
